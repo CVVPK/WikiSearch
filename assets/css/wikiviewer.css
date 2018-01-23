@@ -1,0 +1,97 @@
+body{
+  font-family: "Roboto";
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+a:visited{
+  color:gray;
+}
+
+li a{
+  display: block;
+  padding: 20px;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  border: 1px rgba(0,0,0,0.1) solid;
+  margin:10px;
+}
+
+li h3{
+  margin-top:0;
+}
+
+li:hover{
+  box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+input{
+  font-size: 1.25em;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: none;
+  width: 500px;
+  height: 40px;
+}
+
+input,button:focus{
+  outline:none;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.centered{
+  text-align: center;
+  width: 600px;
+  margin:25% auto;
+}
+
+.centered h1{
+  font-size: 4em;
+}
+
+.top h1,
+.top form{
+  display: inline-block;
+}
+
+.top h1{
+  margin-right:20px;
+}
+
+#searchButton{
+  color: gray;
+  background:none;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+}
+
+#searchBar{
+  border-radius: 5px;
+  width: 565px;
+  box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#searchBar:hover{
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#searchBar:hover button{
+  color:black;
+}
